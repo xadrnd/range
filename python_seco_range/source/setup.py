@@ -1,11 +1,11 @@
-from setuptools import setup
+import setuptools
 from os import path
 
 readme_path = path.join(path.abspath(path.dirname(__file__)), 'README.md')
 with open(readme_path, encoding='utf-8') as f:
     long_description = f.read()
 
-setup(
+setuptools.setup(
     name='python3-seco-range',
     version = '1.0.0',
     author='ytoolshed',
