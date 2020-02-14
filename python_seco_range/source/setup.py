@@ -23,7 +23,13 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent"
     ],
-    install_requires=['requests', 'BeautifulSoup4', 'PyYaml', 'argparse'],
+    install_requires=[
+        'argparse',
+        'BeautifulSoup4',
+        'GitPython',
+        'PyYaml',
+        'requests'
+    ],
     python_requires='>=3.6'
 )
 
