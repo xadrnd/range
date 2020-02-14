@@ -7,7 +7,7 @@ with open(readme_path, encoding='utf-8') as f:
 
 setuptools.setup(
     name='python3-seco-range',
-    version = '1.0.0',
+    version = '1.0.1',
     author='ytoolshed',
     description='A Python 3 version of the library to interact with Range from ytoolshed',
     long_description=long_description,
