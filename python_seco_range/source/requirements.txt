@@ -3,5 +3,4 @@ PyYAML
 beautifulsoup4
 argparse
 requests
-pysvn
 
