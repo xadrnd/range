@@ -5,6 +5,10 @@ readme_path = path.join(path.abspath(path.dirname(__file__)), 'README.md')
 with open(readme_path, encoding='utf-8') as f:
     long_description = f.read()
 
+requirements_path = path.join(path.abspath(path.dirname(__file__)), 'requirements.txt')
+with open(requirements_path, encoding='utf-8') as f:
+    requirements = f.read().splitlines()
+
 setuptools.setup(
     name='python3-seco-range',
     version = '1.0.1',
@@ -23,13 +27,7 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent"
     ],
-    install_requires=[
-        'argparse',
-        'BeautifulSoup4',
-        'GitPython',
-        'PyYaml',
-        'requests'
-    ],
+    install_requires=requirements,
     python_requires='>=3.6'
 )
 
