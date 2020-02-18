@@ -1,6 +1,6 @@
+argparse
+BeautifulSoup4
 GitPython
 PyYAML
-beautifulsoup4
-argparse
 requests
 
