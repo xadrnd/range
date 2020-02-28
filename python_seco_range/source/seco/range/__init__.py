@@ -3,6 +3,8 @@ Library for querying the range webservice - http://github.com/ytoolshed/range
 ebourget@linkedin.com
 """
 
+__version__ = "2.0"
+
 # Core
 import urllib.parse
 import urllib.error
